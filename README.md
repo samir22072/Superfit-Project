@@ -11,7 +11,7 @@ Django : Backend
 
 html/css/bootstrap/js : frontend
 
-Scanning algorithm : OpenCv + hard coded
+Scanning algorithm : OpenCv
 
 Post requests :ajax
 
