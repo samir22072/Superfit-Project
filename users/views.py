@@ -120,7 +120,7 @@ def show_shoulder_width():
 #Thank you page takes multi input from image upload as well as webcam
 
 def save_image(request):
-    """This function is here just for the namesake of it. Don't touch it..it makes other stuff work :) """
+    
   
 
 @csrf_exempt
