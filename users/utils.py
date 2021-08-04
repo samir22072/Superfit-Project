@@ -24,7 +24,7 @@ def main(path):
     masked_image = cv2.bitwise_and(image, image, mask=part_mask)
     
 
-    fr = masked_image #cv2.imread("C:\\Users\\eknat\\Desktop\\PBL\\imgs\\torso_main{7}.jpg")
+    fr = masked_image 
     dimensions = fr.shape
     height = dimensions[0]
     width = dimensions[1]
@@ -223,7 +223,6 @@ def get_shoulder_width(image_path, actual_dimensions=1.98, points=12) -> float:
   
     global export_size
     export_size = final_size.round(2)
-    # ik this looks bad , I could use switch but don't want to add another bug in production
     
     if 0<final_size<=44:
         return "small"
